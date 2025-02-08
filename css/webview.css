@@ -9,20 +9,23 @@
     height: 350px; /* Adjust the iframe height */
     border: none;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    background-color: #09122E; /* Darker blue background */
 }
 
 /* Styling the link in the dashboard */
 .web-view-link a {
-    color: #4a90e2;
+    color: #27AE60; /* Light green */
     font-size: 1.5em;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 25px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 2px solid #27AE60; /* Green border */
 }
 
 .web-view-link a:hover {
-    background-color: #357ab7;
+    background-color: #27AE60; /* Light green */
     color: white;
 }
+

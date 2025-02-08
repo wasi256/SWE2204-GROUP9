@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
 }
 .container {
@@ -19,4 +19,57 @@ input {
 }
 .buttons {
     text-align: center;
+} */
+
+body {
+    font-family: Arial, sans-serif;
 }
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button {
+    background-color: #7ac142; /* Light Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.buttons button:hover {
+    background-color: #66a437; /* Slightly darker green */
+    transform: translateY(-2px);
+}
+
+.buttons button:active {
+    background-color: #53872b; /* Even darker green for active state */
+    transform: translateY(0);
+}
+
+
+

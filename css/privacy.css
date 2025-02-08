@@ -1,28 +1,29 @@
 /* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to right, #e2e2e2, #ffffff);
+    background: linear-gradient(to right, #0b132b, #1c2541); /* Dark theme */
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #ffffff;
 }
 
 /* Container Styles */
 .container {
-    background-color: white;
+    background-color: #162447; /* Darker card */
     max-width: 600px;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     text-align: left;
 }
 
 /* Heading Styles */
 h1 {
     font-size: 2.5em;
-    color: #333;
+    color: #5bcf5f; /* Light green */
     margin-bottom: 20px;
     text-align: center;
 }
@@ -30,7 +31,7 @@ h1 {
 /* Subheading Styles */
 h2 {
     font-size: 1.5em;
-    color: #5a67d8;
+    color: #5bcf5f;
     margin-top: 20px;
 }
 
@@ -49,8 +50,8 @@ ul {
     display: inline-block;
     padding: 10px 20px;
     margin: 0 10px;
-    background-color: #5a67d8;
-    color: white;
+    background-color: #5bcf5f;
+    color: #0b132b;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -59,7 +60,7 @@ ul {
 }
 
 .button:hover {
-    background-color: #434190;
+    background-color: #4caf50;
     transform: translateY(-2px);
 }
 

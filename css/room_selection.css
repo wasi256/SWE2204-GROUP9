@@ -5,16 +5,16 @@
     box-sizing: border-box;
 }
 
-/* Body Styling with Flexbox for Footer at Bottom */
+/* Body Styling */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #8e44ad, #3498db); /* Gradient background */
-    color: #333;
+    background: linear-gradient(to right, #0B173D, #09122E); /* Dark blue gradient */
+    color: #ffffff;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Pushes footer to the bottom */
-    min-height: 100vh; /* Ensures body takes at least full viewport height */
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 /* Main Container */
@@ -23,12 +23,12 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 40px;
-    background-color: #fff;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    background-color: #09122E; /* Dark blue */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
     transform: scale(1);
     transition: all 0.3s ease-in-out;
-    flex-grow: 1; /* Allows container to take up remaining space */
+    flex-grow: 1;
 }
 
 /* Hover Effect on Container */
@@ -39,37 +39,23 @@ body {
 /* Header */
 h1 {
     font-size: 2.6rem;
-    color: #2c3e50;
+    color: #27AE60; /* Light green */
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    animation: fadeInUp 1s ease-out;
-}
-
-/* Keyframes for fade-in effect */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 /* Form Group */
 .form-group {
     margin-bottom: 20px;
-    animation: fadeInUp 1s ease-out;
 }
 
 /* Labels */
 label {
     font-size: 1.1rem;
-    color: #333;
+    color: #ffffff;
     font-weight: 500;
     display: block;
     margin-bottom: 8px;
@@ -80,19 +66,19 @@ input[type="text"], input[type="date"] {
     width: 100%;
     padding: 14px 20px;
     font-size: 1.1rem;
-    color: #333;
+    color: #ffffff;
     border-radius: 10px;
-    border: 1px solid #ddd;
-    background-color: #f5f7fa;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #1C3A63; /* Dark blue border */
+    background-color: #071A3D; /* Dark blue input background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 15px;
     transition: all 0.3s ease;
 }
 
 input[type="text"]:focus, input[type="date"]:focus {
-    border-color: #3498db;
+    border-color: #27AE60; /* Light green */
     outline: none;
-    background-color: #fff;
+    background-color: #0B173D; /* Darker blue */
 }
 
 /* Submit Button */
@@ -100,8 +86,8 @@ button {
     width: 100%;
     padding: 16px;
     font-size: 1.2rem;
-    background-color: #3498db;
-    color: #fff;
+    background-color: #27AE60; /* Light green */
+    color: white;
     font-weight: bold;
     border: none;
     border-radius: 10px;
@@ -112,12 +98,12 @@ button {
 
 /* Button Hover Effects */
 button:hover {
-    background-color: #2980b9;
+    background-color: #219150; /* Slightly darker green */
     transform: translateY(-2px);
 }
 
 button:active {
-    background-color: #1d6d93;
+    background-color: #1A7843;
     transform: translateY(0);
 }
 
@@ -127,13 +113,13 @@ button:active {
     margin-top: 20px;
     text-align: center;
     font-size: 1.1rem;
-    color: #e74c3c;
+    color: #27AE60; /* Light green */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .cancel-link:hover {
-    color: #c0392b;
+    color: #1A7843;
 }
 
 /* Error Message */
@@ -144,37 +130,9 @@ button:active {
     margin-bottom: 20px;
 }
 
-/* Room Hover Effect */
-.room-hover {
-    display: none; /* Hidden by default */
-    background-color: #f1f1f1;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
-
-option:hover .room-hover {
-    display: block; /* Show details on hover */
-}
-
-.room-info {
-    margin-bottom: 10px;
-}
-
-/* Room Features */
-.room-filters,
-.room-details {
-    margin-top: 20px;
-}
-
-.room-filters input[type="range"] {
-    width: 100%;
-    margin-top: 10px;
-}
-
 /* Footer Styling */
 footer {
-    background-color: #2c3e50;
+    background-color: #09122E;
     color: #fff;
     text-align: center;
     padding: 15px 0;
@@ -207,14 +165,15 @@ footer {
         padding: 20px;
     }
 }
+
 /* Chatbot Styling */
 .chatbot {
     width: 300px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #fff;
-    border: 2px solid #3498db;
+    background-color: #09122E; /* Dark blue */
+    border: 2px solid #27AE60; /* Light green */
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -224,7 +183,7 @@ footer {
 }
 
 .chatbot-header {
-    background-color: #3498db;
+    background-color: #27AE60; /* Light green */
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -237,25 +196,27 @@ footer {
     padding: 15px;
     height: 200px;
     overflow-y: auto;
-    color: #333;
+    color: #ffffff;
 }
 
 .chatbot-input {
     display: flex;
     padding: 10px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #27AE60; /* Light green */
 }
 
 .chatbot-input input[type="text"] {
     flex-grow: 1;
     padding: 8px;
     font-size: 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid #1C3A63;
     border-radius: 5px;
+    background-color: #071A3D;
+    color: #ffffff;
 }
 
 .chatbot-input button {
-    background-color: #3498db;
+    background-color: #27AE60;
     color: #fff;
     border: none;
     padding: 8px 10px;
@@ -265,14 +226,14 @@ footer {
 }
 
 .chatbot-input button:hover {
-    background-color: #2980b9;
+    background-color: #219150;
 }
 
 #chatbot-toggle {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #3498db;
+    background-color: #27AE60;
     color: #fff;
     border: none;
     padding: 10px 15px;
@@ -283,12 +244,13 @@ footer {
 
 .user-message {
     text-align: right;
-    color: #3498db;
+    color: #27AE60;
     margin-bottom: 10px;
 }
 
 .bot-message {
     text-align: left;
-    color: #555;
+    color: #ffffff;
     margin-bottom: 10px;
 }
+

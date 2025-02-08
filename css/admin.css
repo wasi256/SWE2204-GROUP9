@@ -1,20 +1,22 @@
 /* Admin Dashboard Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #0b132b; /* Dark Blue Background */
+    color: #ffffff; /* Light Text */
 }
 
 .admin-container {
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #1c2541; /* Darker Blue */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 h1 {
     font-size: 2rem;
-    color: #2c3e50;
+    color: #5bcf5f; /* Light Green */
     text-align: center;
     margin-bottom: 30px;
 }
@@ -23,21 +25,27 @@ h1 {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    padding: 0;
 }
 
 .admin-options ul li {
-    background-color: #3498db;
+    background-color: #3a506b; /* Mid-tone Blue */
     padding: 15px 30px;
     border-radius: 5px;
     margin: 10px;
+    transition: background-color 0.3s ease;
 }
 
 .admin-options ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff; /* White text */
     font-size: 1.1rem;
 }
 
+.admin-options ul li:hover {
+    background-color: #5bcf5f; /* Light Green Hover */
+}
+
 .admin-options ul li a:hover {
-    background-color: #2980b9;
+    background-color: transparent;
 }
