@@ -1,0 +1,227 @@
+/* Reset and General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fafafa; /* Light gray background */
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #1f3b56; /* Deep Navy Blue */
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin: 40px 0;
+}
+
+/* Intro Section */
+.intro {
+  background-color: #e9f5fb; /* Soft light blue */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Our Story Section */
+.origin-story {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.origin-story h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.origin-story p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.team-img {
+  width: 100%;
+  max-width: 700px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* Mission Section */
+section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  margin-top: 40px;
+}
+
+section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Core Values Section */
+section ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+section ul li {
+  font-size: 1.2em;
+  color: #444;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+section ul li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #1f3b56; /* Deep Navy Blue */
+}
+
+/* Team Showcase Section */
+.team-showcase {
+  background-color: #f8f8f8; /* Light gray */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.team-showcase h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.team-showcase p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.team-showcase .team-members {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.team-showcase .team-member {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.team-showcase .team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-showcase .team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #e9f5fb;
+}
+
+.team-showcase .team-member h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.team-showcase .team-member p {
+  font-size: 1em;
+  color: #777;
+}
+
+/* Customer Testimonials Section */
+blockquote {
+  background-color: #ffffff;
+  border-left: 5px solid #f3a847; /* Golden yellow accent */
+  padding: 20px;
+  font-style: italic;
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+blockquote footer {
+  text-align: right;
+  font-size: 1.1em;
+  color: #777;
+}
+
+/* CTA Section */
+section a.contact.php {
+  display: inline-block;
+  background-color: #f3a847; /* Golden yellow */
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+section a.contact.php:hover {
+  background-color: #f09c3b; /* Darker yellow on hover */
+}
+
+/* Contact Info Section */
+section p {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 10px;
+}
+
+section a {
+  color: #1f3b56;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #1f3b56; /* Deep Navy Blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1em;
+  margin: 10px 0;
+}

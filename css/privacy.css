@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #e2e2e2, #ffffff);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.container {
+    background-color: white;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Subheading Styles */
+h2 {
+    font-size: 1.5em;
+    color: #5a67d8;
+    margin-top: 20px;
+}
+
+/* List Styles */
+ul {
+    margin: 10px 0 20px 20px;
+}
+
+/* Button Styles */
+.links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #5a67d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #434190;
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .button {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+}

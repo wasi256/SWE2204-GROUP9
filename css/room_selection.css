@@ -1,0 +1,294 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling with Flexbox for Footer at Bottom */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #8e44ad, #3498db); /* Gradient background */
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes footer to the bottom */
+    min-height: 100vh; /* Ensures body takes at least full viewport height */
+}
+
+/* Main Container */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    flex-grow: 1; /* Allows container to take up remaining space */
+}
+
+/* Hover Effect on Container */
+.container:hover {
+    transform: scale(1.05);
+}
+
+/* Header */
+h1 {
+    font-size: 2.6rem;
+    color: #2c3e50;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Labels */
+label {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input Fields */
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    color: #333;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #f5f7fa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="date"]:focus {
+    border-color: #3498db;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 16px;
+    font-size: 1.2rem;
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Button Hover Effects */
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #1d6d93;
+    transform: translateY(0);
+}
+
+/* Cancel Link */
+.cancel-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #e74c3c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.cancel-link:hover {
+    color: #c0392b;
+}
+
+/* Error Message */
+.error {
+    color: #e74c3c;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Room Hover Effect */
+.room-hover {
+    display: none; /* Hidden by default */
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+option:hover .room-hover {
+    display: block; /* Show details on hover */
+}
+
+.room-info {
+    margin-bottom: 10px;
+}
+
+/* Room Features */
+.room-filters,
+.room-details {
+    margin-top: 20px;
+}
+
+.room-filters input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .form-group {
+        margin-bottom: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
+/* Chatbot Styling */
+.chatbot {
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    z-index: 10;
+}
+
+.chatbot-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatbot-body {
+    padding: 15px;
+    height: 200px;
+    overflow-y: auto;
+    color: #333;
+}
+
+.chatbot-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.chatbot-input input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.chatbot-input button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.chatbot-input button:hover {
+    background-color: #2980b9;
+}
+
+#chatbot-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.user-message {
+    text-align: right;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.bot-message {
+    text-align: left;
+    color: #555;
+    margin-bottom: 10px;
+}

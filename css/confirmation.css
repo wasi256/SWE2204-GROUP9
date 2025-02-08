@@ -1,0 +1,121 @@
+/* confirmation.css */
+
+/* Global Reset for better cross-browser consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f7fc; /* Light grayish-blue background */
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main Confirmation Container */
+.confirmation-container {
+    width: 100%;
+    max-width: 850px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Confirmation Message Box */
+.confirmation-message {
+    background-color: #28a745; /* Green background */
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+
+.confirmation-message p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.message-heading {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Individual Information Style */
+.confirmation-message p strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Confirmation Footer */
+footer {
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+}
+
+/* Button Style (optional, for future use) */
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .confirmation-container {
+        padding: 20px;
+    }
+
+    .confirmation-message {
+        padding: 20px;
+    }
+
+    .message-heading {
+        font-size: 22px;
+    }
+
+    .confirmation-message p {
+        font-size: 16px;
+    }
+}
+
+/* Animation for the message box */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.confirmation-message {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Styling for footer (optional) */
+footer {
+    font-size: 14px;
+    color: #999;
+    margin-top: 30px;
+    text-align: center;
+}

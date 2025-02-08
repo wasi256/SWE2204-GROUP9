@@ -1,0 +1,158 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 60px; /* Space for fixed header */
+}
+
+/* Header and Navigation */
+
+
+header h1 {
+    font-size: 1.6em;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Container */
+.container {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.2em;
+    color: #2b3e50;
+    margin-bottom: 20px;
+}
+
+/* Hotel Cards */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hotel-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.hotel-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-card h2 {
+    font-size: 1.8em;
+    color: #2b3e50;
+    margin-bottom: 10px;
+}
+
+.hotel-info p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.hotel-info p strong {
+    font-weight: bold;
+}
+
+.hotel-card .view-rooms-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: white;
+    background-color: #f3a847; /* Golden Yellow */
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hotel-card .view-rooms-btn:hover {
+    background-color: #2b3e50; /* Dark Slate Blue */
+}
+
+/* No Hotels Available Message */
+p {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+}
+
+/* Dashboard and Navigation Links */
+p a {
+    font-size: 1.1em;
+    color: #2b3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2b3e50; /* Dark Slate Blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .hotel-card {
+        padding: 15px;
+    }
+
+    .hotel-card h2 {
+        font-size: 1.5em;
+    }
+
+    .hotel-info p {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    p a {
+        font-size: 1.2em;
+    }
+}
