@@ -112,43 +112,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <?php include 'footer.php'; ?>
 
-    <script>
-        function toggleChatbot() {
-            const chatbot = document.getElementById('chatbot');
-            chatbot.style.display = chatbot.style.display === 'none' ? 'block' : 'none';
-        }
-
-        function sendMessage() {
-            const userInput = document.getElementById('user-input').value;
-            const chatbotBody = document.getElementById('chatbot-body');
-
-            if (!userInput.trim()) return; // Prevent empty messages
-
-            // Display user's message
-            const userMessage = document.createElement('p');
-            userMessage.className = 'user-message';
-            userMessage.textContent = userInput;
-            chatbotBody.appendChild(userMessage);
-
-            // Clear the input field
-            document.getElementById('user-input').value = '';
-
-            // Simulated bot response
-            const botMessage = document.createElement('p');
-            botMessage.className = 'bot-message';
-
-            if (userInput.toLowerCase().includes('translate')) {
-                botMessage.textContent = "I can help translate for you! Please specify the text you'd like translated.";
-            } else if (userInput.toLowerCase().includes('forex') || userInput.toLowerCase().includes('exchange')) {
-                botMessage.textContent = "Today's forex rate is approximately 1 USD = 0.85 EUR. Please specify the currencies you need details on.";
-            } else {
-                botMessage.textContent = "I'm here to help! Please ask about translation or forex exchange rates.";
-            }
-            chatbotBody.appendChild(botMessage);
-            chatbotBody.scrollTop = chatbotBody.scrollHeight; // Scroll to the bottom
-        }
-
-        document.getElementById('chatbot').style.display = 'none'; // Start with chatbot hidden
-    </script>
 </body>
 </html>
