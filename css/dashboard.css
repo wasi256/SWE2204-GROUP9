@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #f4f7fc 0%, #e3eff7 100%); /* Soft gradient background */
-    color: #333;
+    background: #0b132b; /* Dark blue background */
+    color: #ffffff; /* Light text */
     line-height: 1.6;
 }
 
@@ -26,43 +26,43 @@ ul {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff;
-    /* Adding a white background for the main content */
+    background-color: #1c2541; /* Darker blue */
     border-radius: 8px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow for a floating effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    background: #1c2541; /* Darker blue */
     color: white;
     text-align: center;
     padding: 40px 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #5bcf5f; /* Light green */
 }
 
 header .welcome-message {
     font-size: 1.6rem;
     font-weight: 400;
+    color: #ccc;
 }
 
 header .email {
     font-size: 1rem;
-    color: #ccc;
+    color: #aaaaaa;
 }
 
 /* Navigation */
 nav {
     margin-top: 30px;
-    background-color: #333;
+    background-color: #162447; /* Dark navy */
     border-radius: 8px;
 }
 
@@ -70,7 +70,6 @@ nav {
     display: flex;
     justify-content: center;
     padding: 10px;
-    background-color: #333;
 }
 
 .nav-menu li {
@@ -87,9 +86,9 @@ nav {
 }
 
 .nav-menu a:hover {
-    color: white;
-    background-color: #4CAF50; /* Green hover background for links */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    background-color: #5bcf5f; /* Light green */
+    color: #0b132b; /* Dark text on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* Sections */
@@ -100,7 +99,7 @@ section {
 h2, h3 {
     font-size: 1.6rem;
     font-weight: 500;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
@@ -108,6 +107,7 @@ h3 {
     font-size: 1.4rem;
 }
 
+/* Quick Links */
 .quick-links {
     display: flex;
     gap: 20px;
@@ -116,54 +116,53 @@ h3 {
 }
 
 .quick-link {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #5bcf5f; /* Light green */
+    color: #0b132b; /* Dark blue */
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 4px;
     transition: background-color 0.3s ease, transform 0.3s ease-in-out;
-    /* Adding a subtle scaling effect on hover */
 }
 
 .quick-link:hover {
-    background-color: lightgreen;
-    transform: translateY(-3px); /* Slightly lift the button */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #4caf50; /* Slightly darker green */
+    transform: translateY(-3px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* Info Panels */
 .info-panel {
-    background-color: lightgray;
+    background-color: #1c2541;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 20px;
     margin-top: 30px;
     text-align: center;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     opacity: 0;
-    transform: translateY(20px);  /* Initially move it down slightly */
+    transform: translateY(20px);
 }
 
 .info-panel.hover-panel {
-    background-color: #eef1f6;
-    border: 1px solid #ccc; /* Adding border for definition */
+    background-color: #162447;
+    border: 1px solid #4a5d78;
 }
 
 .info-panel h3 {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #333;
+    color: #ffffff;
 }
 
 .info-panel p {
     font-size: 1rem;
-    color: #555;
+    color: #cccccc;
     margin-bottom: 15px;
 }
 
 .image-link {
     text-decoration: none;
-    color: green;
+    color: #5bcf5f;
     font-weight: 600;
     font-size: 1.1rem;
     transition: color 0.3s ease-in-out, transform 0.3s ease;
@@ -171,13 +170,13 @@ h3 {
 
 .image-link:hover {
     color: lightgreen;
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05);
 }
 
-/* On hover, make the info-panel appear */
+/* Reveal effect */
 .info-panel:hover {
     opacity: 1;
-    transform: translateY(0);  /* Move back to the original position */
+    transform: translateY(0);
 }
 
 /* Footer */
@@ -185,7 +184,7 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    background-color: #333;
+    background-color: #162447;
     color: white;
     border-radius: 8px;
 }
@@ -222,3 +221,4 @@ footer p {
         margin-top: 20px;
     }
 }
+

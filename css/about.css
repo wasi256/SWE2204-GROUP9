@@ -1,4 +1,4 @@
-/* Reset and General Styles */
+Reset and General Styles
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +8,13 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #fafafa; /* Light gray background */
-  color: #333;
+  background-color: #1A1A2E; /* Dark Navy Blue */
+  color: #EAEAEA; /* Light Gray */
 }
 
 h1, h2, h3 {
   font-weight: bold;
-  color: #1f3b56; /* Deep Navy Blue */
+  color: #FDC500; /* Warm Golden Yellow */
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 
 /* Intro Section */
 .intro {
-  background-color: #e9f5fb; /* Soft light blue */
+  background-color: #16213E; /* Deep Blue */
   padding: 40px 20px;
   text-align: center;
 }
@@ -37,12 +37,12 @@ h1 {
 
 .intro p {
   font-size: 1.2em;
-  color: #555;
+  color: #EAEAEA;
 }
 
 /* Our Story Section */
 .origin-story {
-  background-color: #ffffff;
+  background-color: #0F3460; /* Darker Blue */
   padding: 40px 20px;
   text-align: center;
 }
@@ -54,7 +54,7 @@ h1 {
 
 .origin-story p {
   font-size: 1.2em;
-  color: #555;
+  color: #EAEAEA;
   margin-bottom: 20px;
 }
 
@@ -68,7 +68,7 @@ h1 {
 /* Mission Section */
 section {
   padding: 40px 20px;
-  background-color: #ffffff;
+  background-color: #16213E;
   margin-top: 40px;
 }
 
@@ -79,7 +79,7 @@ section h2 {
 
 section p {
   font-size: 1.2em;
-  color: #555;
+  color: #EAEAEA;
 }
 
 /* Core Values Section */
@@ -91,7 +91,7 @@ section ul {
 
 section ul li {
   font-size: 1.2em;
-  color: #444;
+  color: #EAEAEA;
   padding-left: 20px;
   margin-bottom: 10px;
   position: relative;
@@ -101,12 +101,12 @@ section ul li::before {
   content: '✓';
   position: absolute;
   left: 0;
-  color: #1f3b56; /* Deep Navy Blue */
+  color: #FDC500; /* Warm Golden Yellow */
 }
 
 /* Team Showcase Section */
 .team-showcase {
-  background-color: #f8f8f8; /* Light gray */
+  background-color: #0F3460;
   padding: 40px 20px;
   text-align: center;
 }
@@ -118,7 +118,7 @@ section ul li::before {
 
 .team-showcase p {
   font-size: 1.2em;
-  color: #555;
+  color: #EAEAEA;
   margin-bottom: 30px;
 }
 
@@ -131,11 +131,11 @@ section ul li::before {
 }
 
 .team-showcase .team-member {
-  background-color: #ffffff;
+  background-color: #1A1A2E;
   border-radius: 10px;
   padding: 20px;
   width: 250px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: transform 0.3s ease;
 }
@@ -149,7 +149,7 @@ section ul li::before {
   height: 120px;
   border-radius: 50%;
   margin-bottom: 20px;
-  border: 3px solid #e9f5fb;
+  border: 3px solid #FDC500;
 }
 
 .team-showcase .team-member h3 {
@@ -159,31 +159,31 @@ section ul li::before {
 
 .team-showcase .team-member p {
   font-size: 1em;
-  color: #777;
+  color: #EAEAEA;
 }
 
 /* Customer Testimonials Section */
 blockquote {
-  background-color: #ffffff;
-  border-left: 5px solid #f3a847; /* Golden yellow accent */
+  background-color: #16213E;
+  border-left: 5px solid #FDC500;
   padding: 20px;
   font-style: italic;
   margin: 20px 0;
   font-size: 1.2em;
-  color: #555;
+  color: #EAEAEA;
 }
 
 blockquote footer {
   text-align: right;
   font-size: 1.1em;
-  color: #777;
+  color: #EAEAEA;
 }
 
 /* CTA Section */
 section a.contact.php {
   display: inline-block;
-  background-color: #f3a847; /* Golden yellow */
-  color: white;
+  background-color: #FDC500;
+  color: #1A1A2E;
   padding: 15px 30px;
   text-decoration: none;
   border-radius: 5px;
@@ -193,18 +193,18 @@ section a.contact.php {
 }
 
 section a.contact.php:hover {
-  background-color: #f09c3b; /* Darker yellow on hover */
+  background-color: #FF9A00; /* Slightly darker yellow */
 }
 
 /* Contact Info Section */
 section p {
   font-size: 1.2em;
-  color: #555;
+  color: #EAEAEA;
   margin-top: 10px;
 }
 
 section a {
-  color: #1f3b56;
+  color: #FDC500;
   text-decoration: none;
 }
 
@@ -214,7 +214,7 @@ section a:hover {
 
 /* Footer */
 footer {
-  background-color: #1f3b56; /* Deep Navy Blue */
+  background-color: #0F3460;
   color: white;
   padding: 20px;
   text-align: center;

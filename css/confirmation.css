@@ -10,8 +10,8 @@
 
 /* Body Styling */
 body {
-    background-color: #f4f7fc; /* Light grayish-blue background */
-    color: #333;
+    background-color: #0b132b; /* Dark Blue Background */
+    color: #ffffff; /* Light Text */
     font-size: 16px;
     line-height: 1.6;
     padding: 0;
@@ -27,17 +27,17 @@ body {
     width: 100%;
     max-width: 850px;
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #1c2541; /* Darker Blue */
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     text-align: center;
     overflow: hidden;
 }
 
 /* Confirmation Message Box */
 .confirmation-message {
-    background-color: #28a745; /* Green background */
-    color: white;
+    background-color: #5bcf5f; /* Light Green */
+    color: #0b132b; /* Dark Blue Text */
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -57,30 +57,31 @@ body {
 
 /* Individual Information Style */
 .confirmation-message p strong {
-    color: #fff;
+    color: #0b132b; /* Dark Blue */
     font-weight: 600;
 }
 
 /* Confirmation Footer */
 footer {
     font-size: 14px;
-    color: #999;
+    color: #cccccc; /* Light Gray */
     margin-top: 20px;
 }
 
-/* Button Style (optional, for future use) */
+/* Button Style */
 button {
-    background-color: #28a745;
-    color: #fff;
+    background-color: #5bcf5f; /* Light Green */
+    color: #0b132b; /* Dark Blue */
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 16px;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #4caf50; /* Slightly Darker Green */
 }
 
 /* Responsive Design */
@@ -112,10 +113,11 @@ button:hover {
     animation: fadeIn 1s ease-in-out;
 }
 
-/* Styling for footer (optional) */
+/* Styling for footer */
 footer {
     font-size: 14px;
-    color: #999;
+    color: #cccccc; /* Light Gray */
     margin-top: 30px;
     text-align: center;
 }
+

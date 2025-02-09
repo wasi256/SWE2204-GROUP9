@@ -1,8 +1,8 @@
 /* General body and container styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7fc;
-    color: #333;
+    background-color: #0B173D; /* Dark blue background */
+    color: #ffffff; /* White text */
     margin: 0;
     padding: 0;
 }
@@ -11,19 +11,19 @@ body {
     width: 100%;
     max-width: 600px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #09122E; /* Slightly lighter dark blue */
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
     text-align: center;
-    color: #4CAF50;
+    color: #27AE60; /* Light green */
 }
 
 .message {
-    color: #4CAF50;
+    color: #27AE60; /* Light green */
     text-align: center;
     font-weight: bold;
 }
@@ -42,15 +42,18 @@ label {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 8px;
+    color: #ffffff; /* White text */
 }
 
 input[type="text"], input[type="email"], input[type="password"], select {
     padding: 12px;
     font-size: 14px;
-    border: 1px solid #ccc;
+    border: 1px solid #1C3A63; /* Dark blue border */
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
+    background-color: #071A3D; /* Dark blue input background */
+    color: #ffffff; /* White text */
 }
 
 input[type="checkbox"] {
@@ -58,7 +61,7 @@ input[type="checkbox"] {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #27AE60; /* Light green */
     color: white;
     padding: 12px 20px;
     border: none;
@@ -69,12 +72,12 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #219150; /* Slightly darker green */
 }
 
 /* Links and Text */
 a {
-    color: #007BFF;
+    color: #27AE60; /* Light green */
     text-decoration: none;
 }
 
@@ -101,4 +104,3 @@ a:hover {
         font-size: 14px;
     }
 }
-

@@ -1,3 +1,4 @@
+
 /* General Resets */
 * {
     margin: 0;
@@ -8,8 +9,8 @@
 /* Body Styling */
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #f0f2f5 0%, #e8ecf1 100%);
-    color: #333;
+    background: #0b132b; /* Dark background */
+    color: #ffffff; /* Light text */
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
@@ -20,15 +21,15 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #1c2541; /* Darker container */
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* Header Styling */
 h1 {
     font-size: 3em;
-    color: #34495e;
+    color: #5bcf5f; /* Light green */
     text-align: center;
     margin-bottom: 20px;
     font-weight: 700;
@@ -37,7 +38,7 @@ h1 {
 }
 
 h2, h3 {
-    color: #2c3e50;
+    color: #ffffff;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -49,7 +50,7 @@ h3 {
 /* Text Styling */
 p {
     font-size: 1.15em;
-    color: #555;
+    color: #cccccc;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -66,7 +67,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #3498db;
+    color: #5bcf5f;
     font-weight: 500;
     font-size: 1.1em;
     padding: 10px 15px;
@@ -75,19 +76,19 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffffff;
-    background-color: #e74c3c;
+    color: #0b132b;
+    background-color: #5bcf5f;
     transform: translateY(-2px);
 }
 
 /* Promo Banner */
 .promo-banner {
-    background-color: #f39c12;
-    color: #fff;
+    background-color: #162447;
+    color: #ffffff;
     padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
     margin-top: 30px;
     animation: fadeIn 1.5s ease-in;
 }
@@ -104,15 +105,11 @@ nav a:hover {
 
 /* Introduction Section */
 .introduction {
-    background-color: #ecf0f1;
+    background-color: #1c2541;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
-}
-
-.introduction p {
-    font-size: 1.2em;
 }
 
 /* Web View Section */
@@ -122,7 +119,7 @@ iframe {
     border: none;
     border-radius: 10px;
     margin-top: 20px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Highlights Section */
@@ -131,22 +128,17 @@ iframe {
     text-align: center;
 }
 
-.highlights h2 {
-    font-size: 2.2em;
-    margin-bottom: 20px;
-}
-
 .features, .testimonials, .gallery {
-    background-color: #ffffff;
+    background-color: #1c2541;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
 }
 
 .features ul, .testimonials blockquote {
     list-style: none;
-    color: #333;
+    color: #cccccc;
     font-size: 1.1em;
 }
 
@@ -158,17 +150,17 @@ iframe {
 .testimonials blockquote {
     font-size: 1.2em;
     font-style: italic;
-    color: #555;
+    color: #cccccc;
     margin: 0 0 15px;
     padding-left: 20px;
     position: relative;
-    border-left: 4px solid #e74c3c;
+    border-left: 4px solid #5bcf5f;
 }
 
 .testimonials blockquote::before {
     content: '“';
     font-size: 2em;
-    color: #e74c3c;
+    color: #5bcf5f;
     position: absolute;
     left: 0;
     top: -10px;
@@ -198,13 +190,13 @@ iframe {
 
 .image-carousel img:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 /* Carousel Buttons */
 button {
-    background-color: #3498db;
-    color: white;
+    background-color: #5bcf5f;
+    color: #0b132b;
     border: none;
     padding: 10px 20px;
     border-radius: 6px;
@@ -214,16 +206,16 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #4caf50;
 }
 
 /* Footer Styling */
 footer {
-    background-color: #34495e;
+    background-color: #162447;
     color: white;
     padding: 20px;
     text-align: center;
-    border-top: 5px solid #e74c3c;
+    border-top: 5px solid #5bcf5f;
     font-size: 1.1em;
     margin-top: 40px;
 }
@@ -235,7 +227,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #e74c3c;
+    color: #5bcf5f;
 }
 
 /* Keyframes */
