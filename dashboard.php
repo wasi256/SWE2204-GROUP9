@@ -83,7 +83,7 @@ $stmt->close();
                 <a href="booking.php" class="quick-link">My Bookings</a>
                 <a href="profile.php" class="quick-link">Edit Profile</a>
                 <a href="hotels.php" class="quick-link">Browse Hotels</a>
-                <a href="upload_hotel.php" class="quick-link">Add new hotels Hotels</a>
+                <a href="upload_hotel.php" class="quick-link">Add new Hotels</a>
                 <a href="download_file.php" class="quick-link">Download report</a>
             </div>
         </section>
