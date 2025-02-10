@@ -59,16 +59,16 @@
                 <p>With a vision to simplify hotel bookings, Joel founded our company and has led the way in ensuring that every guest has the best experience possible.</p>
             </div>
             <div class="team-member">
-                <img src="photos/joo.svg" alt="Kamukama Osbert - Operations Manager">
-                <h3>Kamukama Osbert</h3>
+                <img src="photos/faith.svg" alt="faith Ahebwa - Operations Manager">
+                <h3>FAITH AHEBWA</h3>
                 <p>Operations Manager</p>
-                <p>Osbert ensures that our platform runs smoothly, from booking confirmations to coordinating with hotels for seamless experiences.</p>
+                <p>FAITH ensures that our platform runs smoothly, from booking confirmations to coordinating with hotels for seamless experiences.</p>
             </div>
             <div class="team-member">
-                <img src="photos/jose.svg" alt="Kereere Joseph - Customer Service Lead">
-                <h3>Kereere Joseph</h3>
+                <img src="photos/allan.svg" alt="allan - Customer Service Lead">
+                <h3>ALLAN</h3>
                 <p>Customer Service Lead</p>
-                <p>Joseph leads our customer service team, ensuring that every guest inquiry is handled promptly and professionally.</p>
+                <p>Allan leads our customer service team, ensuring that every guest inquiry is handled promptly and professionally.</p>
             </div>
         </div>
     </section>
