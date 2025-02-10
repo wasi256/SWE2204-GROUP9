@@ -45,7 +45,7 @@
         </section>
 
         <!-- Web View Section (iframe) -->
-        <section>
+        <!-- <section>
            <h2>Explore more information</h2>
             <iframe 
             src="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjJv_iLzs-JAxWyg4MHHbyhI9wYABADGgJlZg&ae=2&aspm=1&co=1&ase=2&gclid=Cj0KCQiArby5BhCDARIsAIJvjISqRtDDZM5-j6dWbWNxRXmAPDVZAL7Ob60bL1foT3swM8FZ34lroKwaAlcrEALw_wcB&ohost=www.google.com&cid=CAESVuD2WMdf3qjoQ2O7DweV6YH_kzzbY2BxzOEm1wy3-UtEeDjomqOXxY40c6EIYr2ZEu0Eg6Z5ifilUUuwQ_kzkT0lOI-Ysjh6MZsuTkEnlSZq0Bbl42lH&sig=AOD64_3ZZlrweg5b1n4UCKX7ktAHyC_9Eg&q&nis=4&adurl&ved=2ahUKEwj44POLzs-JAxXv7AIHHSpNL_0Q0Qx6BAgMEAM" title="Web View"
@@ -55,7 +55,7 @@
             allowfullscreen
             title="Embedded information">
         </iframe>
-        </section>
+        </section> -->
 
         <!-- Highlights Section -->
         <section class="highlights">
