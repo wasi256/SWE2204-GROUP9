@@ -66,7 +66,49 @@ This project incorporates **Software Engineering Investigation** to optimize sys
 ✅ **Survey-Based Analysis:** Collecting user feedback on hotel satisfaction using Likert scales (1-5 stars).  
 
 **Example Hypothesis:**  
-_"Can an improved search algorithm reduce booking time by 20%?"_  
+_"Can an improved search algorithm reduce booking time by 20%?"_ 
+
+✅ **Software Complexity Analysis:** Using **Halstead’s Complexity Metrics** to evaluate the **readability and maintainability** of our source code.  
+
+---
+
+## 📜 **Halstead's Complexity Analysis in the Hotel Management System**  
+
+### **🔹 What is Halstead's Complexity Model?**  
+Halstead’s Complexity Analysis is a **software engineering metric** used to measure **code complexity** by analyzing **operators and operands**.  
+It helps our **Hotel Management System** by:  
+✅ **Detecting complex code sections** that may need optimization.  
+✅ **Measuring the maintainability & readability** of the system.  
+✅ **Estimating development effort** based on logical code operations.  
+
+---
+
+## 📏 **Halstead’s Metrics Used in Our Hotel Management System**  
+| **Metric** | **Formula** | **Meaning in Our Codebase** |
+|------------|------------|---------------------------|
+| **n₁** | Unique Operators | Number of distinct operators in the code. |
+| **n₂** | Unique Operands | Number of distinct variables/constants. |
+| **N₁** | Total Operators | Total occurrences of operators. |
+| **N₂** | Total Operands | Total occurrences of operands. |
+| **Program Vocabulary (n)** | **n = n₁ + n₂** | Unique tokens in the code. |
+| **Program Length (N)** | **N = N₁ + N₂** | Total elements in the code. |
+| **Volume (V)** | **V = N × log₂(n)** | Measures the size of the implementation. |
+| **Difficulty (D)** | **D = (n₁ / 2) × (N₂ / n₂)** | Complexity of logic in the code. |
+| **Effort (E)** | **E = D × V** | Total effort required to develop & maintain the code. |
+
+---
+
+## **⚙️ How Halstead's Complexity is Implemented in the Hotel Management System**  
+
+We use **Python** to **automatically analyze all PHP, JavaScript, and Python files** in the project and calculate **Halstead’s Complexity Metrics**.  
+This helps in **evaluating code efficiency, readability, and maintainability**.  
+
+✅ **Scans all source code files in the project**  
+✅ **Identifies operators and operands**  
+✅ **Computes complexity metrics**  
+✅ **Saves results into a CSV file for analysis**  
+
+---
 
 ---
 
