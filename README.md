@@ -7,6 +7,8 @@ This project is a **comprehensive Hotel Management System** designed to streamli
 - User authentication and registration
 - Room booking and availability management
 - Guest profile management
+- Hotel ranking system (1-5 star rating)   
+- Performance monitoring using Function Points & empirical analysis
 - Admin dashboard for hotel management
 - Payment processing
 - Responsive design for various devices
@@ -52,7 +54,19 @@ We apply the **GQM methodology** to ensure that software measurement is aligned 
 3️⃣ **Metrics:**  
    - **Booking Success Rate:** (Completed bookings ÷ Total attempts) × 100  
    - **Payment Failure Rate:** (Failed transactions ÷ Total transactions) × 100  
-   - **Page Load Time:** Avg time taken to load booking pages  
+   - **Page Load Time:** Avg time taken to load booking pages
+
+## 📊 Software Investigation & Performance Metrics  
+
+This project incorporates **Software Engineering Investigation** to optimize system efficiency.  
+
+### **Empirical Research Techniques Applied:**  
+✅ **Case Study:** Analyzing how users interact with the booking system and improving search algorithms.  
+✅ **Experimentation:** Testing different UI designs to optimize booking completion rates.  
+✅ **Survey-Based Analysis:** Collecting user feedback on hotel satisfaction using Likert scales (1-5 stars).  
+
+**Example Hypothesis:**  
+_"Can an improved search algorithm reduce booking time by 20%?"_  
 
 ---
 
