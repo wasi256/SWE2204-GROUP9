@@ -71,6 +71,13 @@ _"Can an improved search algorithm reduce booking time by 20%?"_
 ✅ **Software Complexity Analysis:** Using **Halstead’s Complexity Metrics** to evaluate the **readability and maintainability** of our source code.  
 
 ---
+## Automating LOC (Lines of Code) Measurement in Python
+
+To dynamically measure the Lines of Code (LOC) in our Hotel Management System, you can use a Python script to scan your PHP, JavaScript, HTML, and CSS files and count.
+
+This python script together with its usage can be found in the [LOC](./LOC/) folder.
+
+---
 
 ## 📜 **Halstead's Complexity Analysis in the Hotel Management System**  
 
@@ -108,17 +115,19 @@ This helps in **evaluating code efficiency, readability, and maintainability**.
 ✅ **Computes complexity metrics**  
 ✅ **Saves results into a CSV file for analysis**  
 
----
+The Halstead Complexity metrics can be found in the [Halstead](./Halstead/) folder
 
 ---
 
 ## Installation
 1. Clone the repository:
+
+   ```bash
    git clone https://github.com/Miriam-Birungi/SWE2204-GROUP9.git
-2. Set up a local web server (Apache) and ensure PHP is installed.
-3. Import the provided MySQL database schema.
-4. Configure the database connection in the PHP files.
-5. Open the project in your web browser.
+3. Set up a local web server (Apache) and ensure PHP is installed.
+4. Import the provided MySQL database schema.
+5. Configure the database connection in the PHP files.
+6. Open the project in your web browser.
 
 ## Usage
 - Navigate to the homepage to view available rooms and make bookings.
@@ -128,13 +137,22 @@ This helps in **evaluating code efficiency, readability, and maintainability**.
 ## Contributing
 Contributions to improve the Hotel Management System are welcome. Please follow these steps:
 1. Fork the repository
-2. Create a new branch (\`git checkout -b feature-branch\`)
-3. Make your changes and commit (\`git commit -am 'Add some feature'\`)
-4. Push to the branch (\`git push origin feature-branch\`)
+2. Create a new branch
+   
+   ```bash
+   git checkout -b feature-branch
+3. Make your changes and commit
+
+   ```bash
+   git commit -am 'Add some feature`
+4. Push to the branch
+
+   ```bash
+   git push origin feature-branch`
 5. Create a new Pull Request
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
 
 ## Contact
-For any queries or support, please contact Bwambale Martin Kigongo at martinbwam@gmail.com .
+For any queries or support, please contact Bwambale Martin Kigongo at `martinbwam@gmail.com` .
