@@ -1,0 +1,30 @@
+# Software Cost Metrics (Chapter 7)
+
+## Description
+This document provides an overview of software cost estimation, covering various models and techniques used to predict the effort and time required to develop software systems [cite: 411, 412, 413, 414]. It discusses cost models, constraint models, and specific examples like COCOMO and SLIM [cite: 415, 416].
+
+## Contents
+- Software cost estimation and its importance [cite: 411, 412, 413, 414]
+- Cost estimation techniques
+  - Algorithmic Models (Cost Models & Constraint Models) [cite: 415, 416]
+  - Analogy [cite: 415, 416]
+  - Expert Judgment [cite: 415, 416]
+  - Machine Learning (Case-Based Reasoning) [cite: 415, 416]
+  - Other techniques (Top-Down, Bottom-Up, etc.) [cite: 417-430]
+- Detailed explanation of Cost Models
+- Constraint Models and SLIM [cite: 461-463]
+- COCOMO and COCOMO II
+
+## Key Concepts
+- Software Cost Estimation: Predicting effort and time for software development [cite: 411]
+- Cost Models: Mathematical algorithms to calculate cost [cite: 412, 413]
+- Constraint Models: Relationship between effort, time, staffing [cite: 413, 446, 447]
+- COCOMO: Constructive Cost Model [cite: 464-466]
+- SLIM: Software Lifecycle Management [cite: 413, 414]
+- LOC: Lines of Code
+- FP: Function Points
+- Cost Drivers: Factors influencing effort [cite: 450, 451]
+- EAF: Effort Adjustment Factor [cite: 467, 468]
+
+## Intended Audience
+Students and professionals in software engineering interested in understanding software cost estimation techniques and models.
